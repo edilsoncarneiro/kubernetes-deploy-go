@@ -1,4 +1,4 @@
-
+es
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -51,7 +51,7 @@ metadata:
     allow.http: "false"
 spec:
   rules:
-  - host: go.rancher.dev-ops-ninja.com
+  - host: go.rancher.morredores.com
     http:
       paths:
         - path: /
